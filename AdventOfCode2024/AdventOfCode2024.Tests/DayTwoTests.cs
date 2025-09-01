@@ -23,5 +23,19 @@ namespace AdventOfCode2024.Tests
             // Assert
             Assert.Equal(expected, result);
         }
+
+        [Theory]
+        [InlineData("SampleDayTwo-1", 4)]
+        public void DayTwoStarTwo_Should_Correctly_Calculate(string filepath, int expected)
+        {
+            // Arrange
+            var starTwo = new TwoStarTwo();
+
+            // Act
+            var result = starTwo.Run(filepath);
+
+            // Assert
+            Assert.Equal(expected, result);
+        }
     }
 }

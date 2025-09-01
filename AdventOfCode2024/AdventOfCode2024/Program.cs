@@ -6,7 +6,7 @@ namespace AdventOfCode2024
     {
         private static void Main(string[] args)
         {
-            Day<OneStarTwo>("DayOne");
+            Day<TwoStarOne>("DayTwo");
         }
 
         private static void Day<T>(string filePath)
